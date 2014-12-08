@@ -2,28 +2,40 @@
 <html>
 
 <head>
+    <link href='http://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/main.css">
     <title>I'M IN TECH</title>
 </head>
 
 <body>
-<div class="nav menu-bar">
-    <div class="container">
-        <ul class="nav nav-pills ">
-            <li><a href="#about">ABOUT</a></li>
+<nav class="navbar navbar-default menu-bar navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">I'm In Tech</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav nav-pills navbar-right">
+            <li class="active"><a href="#about">ABOUT<span class="sr-only">(current)</span></a></li>
             <li><a href="#event">EVENTS</a></li>
             <li><a href="#signup">CONTRIBUTE</a></li>
             <li><a href="#contact">CONTACT</a></li>
         </ul>
+            </div>
     </div>
-</div>
+</nav>
 
 <div id="about">
     <div class="container">
-        <h3> Technology for the people by the people</h3>
+        <h3> Technology For The People By The People</h3>
 
-        <p>I'm In Tech is a community that aims to train young Africans in technology and business,
+        <p> <b> I'm In Tech</b> is a community that aims to train young Africans in technology and business,
             to empower them to be able to provide solutions that the continent needs, tailored for the continent.</p>
 
         <p>Often times, technology used in Africa is technology developed in some other countries by some other people,
@@ -97,6 +109,12 @@
     </div>
 
 </div>
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="js/bootstrap.js"></script>
 </body>
 
 </html>

@@ -1,16 +1,24 @@
-.nav li{
-    display: inline;
+h3{
+    font-family: 'Oxygen', sans-serif;
+    color: slategrey;
+}
+
+body {
+    padding-top: 70px;
+}
+
+.navbar {
+    background-color: #ffffff;
+    margin-bottom: 10px;
 }
 
 .nav a {
-    color: slategrey;
-    font-size: 16px;
-    font-weight: bold;
+    color: darkslateblue;
+    font-size: 17px;
     padding: 14px 10px;
     text-transform: uppercase;
 }
 
 .menu-bar{
-    border-bottom-color: darkslateblue;
     border-bottom: groove darkslateblue;
 }
