@@ -3,6 +3,20 @@ h3{
     color: lightseagreen;
 }
 
+a{
+    color: deeppink;
+}
+
+a:visited{
+    color: deeppink;
+}
+
+
+a:hover{
+    color: hotpink;
+    text-decoration: none;
+}
+
 body {
     padding-top: 70px;
 }
@@ -20,11 +34,12 @@ body {
 }
 
 .menu-bar{
-    border-bottom: groove darkslateblue;
+    border-bottom: groove slateblue;
 }
 
 #about{
-    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     font-size: 15px;
     font-family: 'Roboto', sans-serif;
 }
@@ -37,5 +52,15 @@ body {
     color: slateblue;
     font-style: italic;
     font-family: 'Roboto', sans-serif;
+    padding: 10px;
+}
+
+#event{
+    font-size: 15px;
+    background-color: #ededed;
+    margin-bottom: 10px;
+}
+
+#event .row{
     padding: 10px;
 }
