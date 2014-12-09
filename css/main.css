@@ -64,3 +64,12 @@ body {
 #event .row{
     padding: 10px;
 }
+
+#contact{
+    background-color: #ededed;
+    border-top: solid 1px #9d9d9d;
+}
+
+#contact .email{
+    padding: 10px;
+}
