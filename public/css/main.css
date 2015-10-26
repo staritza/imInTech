@@ -44,7 +44,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.about-us{
+.page-text{
     padding: 10px;
 }
 
@@ -52,21 +52,12 @@ body {
     color: slateblue;
     font-style: italic;
     font-family: 'Roboto', sans-serif;
-    padding: 10px;
 }
 
 #event{
     font-size: 15px;
     background-color: #ededed;
     margin-bottom: 10px;
-}
-
-#event .row{
-    padding: 10px;
-}
-
-#signup .row{
-    padding: 10px;
 }
 
 #signup li{
@@ -76,8 +67,4 @@ body {
 #contact{
     background-color: #ededed;
     border-top: solid 1px #9d9d9d;
-}
-
-#contact .email{
-    padding: 10px;
 }
